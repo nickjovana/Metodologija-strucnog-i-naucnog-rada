@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{ruby-doc}
+J.~Britt.
+\newblock {Ruby Documentation}.
+\newblock on-line at: \url{http://www.ruby-doc.com/docs/ProgrammingRuby/}.
+
+\bibitem{HandsOn}
+Huw Collingbourne.
+\newblock {\em {The Book of Ruby: A Hands-On Guide for the Adventurous}}.
+\newblock No Starch Press, 2011.
+
+\bibitem{rubyLang}
+The~Ruby community.
+\newblock {Ruby Language}.
+\newblock on-line at: \url{https://www.ruby-lang.org/en/}.
+
+\bibitem{rubyOnRails}
+The~Ruby community.
+\newblock {Ruby on Rails}.
+\newblock on-line at: \url{https://rubyonrails.org/}.
+
+\bibitem{fromNovice}
+P.~Cooper.
+\newblock {\em {Beginning Ruby from Novice to Professional}}.
+\newblock Apress, 2007.
+
+\bibitem{rubyProgLang}
+D.~Flanagan and M.~Yukihiro.
+\newblock {\em {The Ruby Programing Language}}.
+\newblock O'Reilly, 2008.
+
+\bibitem{rubyTalk}
+Shin-Ichiro Hara.
+\newblock {Ruby talk}.
+\newblock on-line at:
+  \url{http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml}.
+
+\bibitem{rubyToolbox}
+Christoph Olszowka.
+\newblock {The Ruby Toolbox}, 2009.
+\newblock on-line at: \url{https://www.ruby-toolbox.com/projects/rails}.
+
+\bibitem{specDynTech}
+Chris Seaton.
+\newblock {Specialising dynamic techniques for implementing the Ruby
+  Programming Language}.
+\newblock page~26, 2015.
+
+\end{thebibliography}
