@@ -252,7 +252,7 @@ Modul predstavlja grupisane metode, konstante i klasne promenljive. Definisani s
 
 Mixins predstavljaju više pomešanih modula (\emph{eng. mixed in}) i način da se prevaziđe nepostojanje višestrukog nasleđivanja. Omogućavaju kontrolisan način dodavanja funkcionalnosti klasama. Moduli ne mogu da imaju instance zato što nisu klase, ali možemo da uključimo module u okviru neke klase. Na taj način svi metodi modula su na raspolaganju kao metodi u datoj klasi. Zapravo, pomešani moduli se ponašaju kao superklase \cite{ruby-doc}.
 
-Primerom \ref{mixins} pokazujemo upotrebu \emph{mixin Comparable} koji može da se koristi za dodavanje operatora poređenja (\textless , \textgreater , \textgreater =, \textless =, ==) i metode \emph{between?(min,max)} nekoj klasi. Kako bi ovo radilo \emph{Comparable} pretpostavlja da klasa koja ga koristi ima definisan operator  “\textless =\textgreater”. Konačno, potrebno je da definisemo jedan metod koji implementira operator “\textless =\textgreater” i uključimo \emph{mixin Comparable} kako bismo dobili dodatnih šest metoda poređenja besplatno.
+Primerom \ref{mixins} pokazujemo upotrebu \emph{mixin Comparable} koji može da se koristi za dodavanje operatora poređenja (\textless , \textgreater , \textgreater =, \textless =, ==) i metode \emph{between?(min,max)} nekoj klasi. Kako bi ovo radilo \emph{Comparable} pretpostavlja da klasa koja ga koristi ima definisan operator  “\textless =\textgreater”. Konačno, potrebno je da definišemo jedan metod koji implementira operator “\textless =\textgreater” i uključimo \emph{mixin Comparable} kako bismo dobili dodatnih šest metoda poređenja besplatno.
 \begin{lstlisting}[language=Ruby, caption={Primer koda}, frame=single, label=mixins]
 	class Primer
 		include Comparable
@@ -278,7 +278,7 @@ Primerom \ref{mixins} pokazujemo upotrebu \emph{mixin Comparable} koji može da 
 \end{lstlisting}\vspace*{-15pt}
 
 \subsection{Transparentnost i fleksibilnost}
-U koliko je potrebno odratiti složen posao u sto manje linija koda i na jednostavnoji način pogodno je koristiti Ruby. %Mnogi će izabrati Ruby za neke poslove zato što će neki posao koji bi inače zahtevao nekoliko dana biti završen kroz nekoliko sati. 
+Ukoliko je potrebno odratiti složen posao u što manje linija koda i na jednostavnoji način pogodno je koristiti Ruby. %Mnogi će izabrati Ruby za neke poslove zato što će neki posao koji bi inače zahtevao nekoliko dana biti završen kroz nekoliko sati. 
 Jedna od odlika Ruby-ja je njegova transparentnost. Pod tim se podrazumeva da za rešenja naših problema ne moramo imati mnogo dokumentacije kako bismo odradili neke jednostavne stvari. Pomoću ovog programskog jezika možemo da direktno izrazimo ideje i dizajne rešenja problema, i to na elegantan način. Sve ovo znači da ćemo kucati brže, kao i da su naši kodovi čitljiviji i lakše održivi. U primeru koda \ref{httpkod} povezujemo se na HTTP server i dohvatamo telo veb strane kao string objekat koji ispisujemo na standardni izlaz \cite{poignant}.
 \begin{lstlisting}[language=Ruby, caption = "Primer koda", label=httpkod]
 	require 'net/http'
