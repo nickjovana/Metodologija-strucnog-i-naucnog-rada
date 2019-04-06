@@ -147,7 +147,7 @@ Već u prvom našem programu imamo primer upotrebe Stringa.  Stringovi su jedan 
 Karakterima u stringu možemo pristupati korišćenjem notacije s[i,j], gde je \emph{s} neki string a \emph{i} i \emph{j} indeksi prvog i poslednjeg karaktera podniske koja će biti izdvojena. Neke od ponuđenih klasičnih metoda su \emph{length}(vraća dužinu stringa), \emph{reverse}(obrće redosled čarova u stringu), \emph{swapcase}(menja mala slova u velika i obrnuto), \emph{insert(position, string)} (dodaje nisku na zadatu poziciju u stringu).
 
 \subsection{Array}
-Niz je sekvencijalna kolekcija stavki u kojima se svaka stavka može indeksirati. U Ruby-ju jedan niz može da sadrži stavke mešovitih tipova podataka, kao što su stringovi, celi brojevi pa čak i pozivi metoda koje vraćaju neku vrednost. Indeksiranje kreće od nule. Postoji i mogućnost kreiranja matrica kao niza nizova. Moguće je duboko kopiranje gde se promenom jednog niza menja i drugi, novonastali, i plitko gde menjanje jednog ne utiče na drugi niz[2]. Prvo se vrši pomoću operatora dodele, a drugo pomoću metoda \emph{clone}. 
+Niz je sekvencijalna kolekcija stavki u kojima se svaka stavka može indeksirati. U Ruby-ju jedan niz može da sadrži stavke mešovitih tipova podataka, kao što su stringovi, celi brojevi pa čak i pozivi metoda koje vraćaju neku vrednost. Indeksiranje kreće od nule. Postoji i mogućnost kreiranja matrica kao niza nizova. Moguće je duboko kopiranje gde se promenom jednog niza menja i drugi, novonastali, i plitko gde menjanje jednog ne utiče na drugi niz \cite {HandsOn}. Prvo se vrši pomoću operatora dodele, a drugo pomoću metoda \emph{clone}. 
 
 Niz može da sadrži i \emph{nil} objekte ukoliko neki od članova nije inicijalizovan ili je izvan definisanog opsega. Na primer, za niz n=[1,2,3], n[3]  nam daje vrednost \emph{nil} iz klase \emph{nilClass}. Neke metode koje možemo pozivati nad nizovima su \emph{delete(object)}(briše navedeni element niza), \emph{sort}(sortira niz), \emph{clean}(briše sve elemente), \emph{compact}(vraća niz sa uklonjenim \emph{nil} vrednostima).
 
@@ -289,7 +289,7 @@ Jedna od odlika Ruby-ja je njegova transparentnost. Pod tim se podrazumeva da za
 
 
 \section{Razvojna okruženja}
-Ruby ima mnoštvo razvojnih okruženja, posebno u domenu razvoja veb aplikacija. Najpoznatija okruženja za razvoj veb aplikacija su svakako Ruby on Rails, koji je najpopularniji u ovom domenu, zatim Sinatra, Padrino, Hanami (ex. Lotus), NYNY, Cuba, Crepe, Grape, Nancy, Hobbit, Scorched, Rack.
+Ruby ima mnoštvo razvojnih okruženja, posebno u domenu razvoja veb aplikacija. Najpoznatija okruženja za razvoj veb aplikacija su svakako Ruby on Rails, koji je najpopularniji u ovom domenu, zatim Sinatra, Padrino, Hanami (ex. Lotus), NYNY, Cuba, Crepe, Grape, Nancy, Hobbit, Scorched, Rack.Bez obzira na veliki broj okruženja, odlučili smo da posebnu pažnju posvetimo Ruby on Rails koji je i dalje najdominantniji među pomenutim.
 \subsection{Ruby on Rails}
 Ruby on Rails je jedno od najpopularnijih razvojnih okruženja za razvoj veb aplikacija. Zapravo, njegovim pojavljivanje, Ruby je postao svetski poznat jezik. Napravljeno je da učini programiranje veb aplikacija lakšim praveći pretpostavke o tome šta je svakom programeru potrebno da bi počeo. Omogućava da se napiše manje koda, a da se pritom ostvari više nego u mnogim drugim jezicima i okruženjima. Iskusni Rails programeri kažu da čini razvoj veb aplikacija zabavnijim \cite{rubyOnRails}.
 
@@ -308,8 +308,7 @@ Mnoge poznate aplikacije napisane u Ruby-ju su napravljene upravo pomoću Ruby o
 
 \section{Instalacija i uputstvo za pokretanje programa na Linux i Windows operativnim sistemima}
 %\addtocontents{toc}{\setcounter{tocdepth}{2}}
-
-Instalacija i izvršavanje standardne implementacije programskog jezika Ruby je podržana na različitim operativnim sistemima. U narednom delu prikazujemo slučajeve kod operativnih sistema Linux i Windows.
+Instalacija i izvršavanje standardne implementacije programskog jezika Ruby je podržana na različitim operativnim sistemima. Ne zahteva mnogo napora tako da nije izazov za korisnike i brzo i efikasno se odrađuje.  U narednom delu prikazujemo slučajeve kod operativnih sistema Linux i Windows.
 
 \subsection{Instalacija}
 Najjednostavniji način za instalaciju Ruby programskog jezika na Linux operativnom sistemu(distribucija Debian i Ubuntu) je korišćenjem \emph{apt} menadžer paketa.
