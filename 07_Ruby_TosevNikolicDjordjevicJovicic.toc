@@ -1,4 +1,4 @@
-\select@language {serbian}
+\babel@toc {serbian}{}
 \global \c@tocdepth 1\relax 
 \contentsline {section}{\numberline {1}Uvod}{2}{section.1}
 \contentsline {section}{\numberline {2}Istorijski razvoj, uticaj i namena}{2}{section.2}

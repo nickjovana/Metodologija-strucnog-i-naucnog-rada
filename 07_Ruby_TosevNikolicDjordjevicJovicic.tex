@@ -76,7 +76,7 @@ Ruby je postao veoma popularan u Japanu 1990-ih godina, međutim, svetsko prizna
 
 \subsection{Mesto u razvojnom stablu i uticaji drugih programskih jezika}
 
-Kao dugogodišnji ljubitelj OO programiranja, Matz je tražio jezik koji će zadovoljiti njegove kriterijume. Bio je upoznat sa jezicima Perl 4 i Python, ali mu se nisu svideli. Python nije smatrao pravim OO jezikom, jer su OO karakteristike delovale kao dodatak jeziku. Tražio je OO skript jezik, jer mu je izgledao obećavajuće, ali ga nije našao, stoga je odlučio da ga sam napravi. Spojio je delove svojih omiljenih jezika – Perl, Smalltalk, Eiffel, Ada, Lisp i Python. Položaj jezika u današnjem vremenu i njegovu ravnopravnost sa nekim od poznatih programskih jezika možemo videti u tabeli \ref{tab:tabela1} \cite{rubyProgLang}.
+Kao dugogodišnji ljubitelj OO programiranja, Matz je tražio jezik koji će zadovoljiti njegove kriterijume. Bio je upoznat sa jezicima Perl 4 i Python, ali mu se nisu svideli. Python nije smatrao pravim OO jezikom, jer su OO karakteristike delovale kao dodatak jeziku. Tražio je OO skript jezik, jer mu je izgledao obećavajuće, ali ga nije našao, stoga je odlučio da ga sam napravi. Spojio je delove svojih omiljenih jezika – Perl, Smalltalk, Eiffel, Ada, Lisp i Python. Položaj jezika u današnjem vremenu i njegovu popularnost na GitHub-u u poređenju sa nekim od poznatih programskih jezika možemo videti iz tabele \ref{tab:tabela1} \cite{rubyProgLang}.
 
 \begin{table}[h!]
 \begin{center}
@@ -118,7 +118,7 @@ Poznati projekti koji su implementirani u Ruby-ju su:
 \end{itemize}
 
 
-U 2002. godini kada se pojavio Ruby je zauzimao 39. poziciju na TIOBE listi indeksa programskih jezika. Ovaj indeks se računa na osnovu broja pretraga u pretraživačima. Popularnost jezika se menjala kroz godine što možemo zaključiti sa slike \ref{fig:sajt3}, a trenutno se nalazi na 15. poziciji na TIOBE listi.
+U 2002. godini, kada se pojavio, Ruby je zauzimao 39. poziciju na TIOBE listi indeksa programskih jezika. Ovaj indeks se računa na osnovu broja pretraga u pretraživačima. Popularnost jezika se menjala kroz godine što možemo zaključiti sa slike \ref{fig:sajt3}, a trenutno se nalazi na 15. poziciji na TIOBE listi.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -142,7 +142,7 @@ U ovom poglavlju upoznaćemo se sa osnovama jezika, a to počinjemo primerom \re
 Ruby poseduje popularne mehanizme poput regularnih izraza, obrade izuzetaka, sakupljače otpadaka i mogućnost pisanja automatske dokumentacije. U nastavku ćemo ukratko opisati neke od najkorišćenijih koncepata jezika.
 
 \subsection{String}
-Već u prvom našem programu imamo primer upotrebe Stringa.  Stringovi su jedan od podrazumevanih tipova većine jezika. Nadovezivanje stringova se može izvršiti pomoću operatora “+” ili “\textless\textless”     koji ne menja postojeći String objekat nego dolazi do kreiranja novog. Ukoliko pokušamo nadovezati stringove pomoću “,” tip koji smo dobili zapravo predstavlja objekat klase Array.
+Već u prvom našem programu imamo primer upotrebe Stringa. Stringovi su jedan od podrazumevanih tipova većine jezika. Nadovezivanje stringova se može izvršiti pomoću operatora “+” ili “\textless\textless”     koji ne menja postojeći objekat nego dolazi do kreiranja novog. Ukoliko pokušamo nadovezati stringove pomoću “,” tip koji smo dobili zapravo predstavlja objekat klase Array.
 
 Karakterima u stringu možemo pristupati korišćenjem notacije s[i,j], gde je \emph{s} neki string a \emph{i} i \emph{j} indeksi prvog i poslednjeg karaktera podniske koja će biti izdvojena. Neke od ponuđenih klasičnih metoda su \emph{length}(vraća dužinu stringa), \emph{reverse}(obrće redosled čarova u stringu), \emph{swapcase}(menja mala slova u velika i obrnuto), \emph{insert(position, string)} (dodaje nisku na zadatu poziciju u stringu).
 
@@ -152,7 +152,7 @@ Niz je sekvencijalna kolekcija stavki u kojima se svaka stavka može indeksirati
 Niz može da sadrži i \emph{nil} objekte ukoliko neki od članova nije inicijalizovan ili je izvan definisanog opsega. Na primer, za niz n=[1,2,3], n[3]  nam daje vrednost \emph{nil} iz klase \emph{nilClass}. Neke metode koje možemo pozivati nad nizovima su \emph{delete(object)}(briše navedeni element niza), \emph{sort}(sortira niz), \emph{clean}(briše sve elemente), \emph{compact}(vraća niz sa uklonjenim \emph{nil} vrednostima).
 
 \subsection{Hash}
-Mogućnost da se umesto brojevnih vrednosti niz indeksira vrednostima drugog tipa je u Ruby-ju omogućena uvođenjem klase Hash. Hash je sličan strukturi koja je poznata i kao mapa u nekim drugim jezicima, gde indeks predstvlja ključ, a pridruženi član indeksa vrednost. Ukoliko za isti ključ definišemo različite vrednosti, ključ  će imati vrednost poslednje definisane vrednosti za taj ključ. 
+Mogućnost da se umesto brojevnih vrednosti niz indeksira vrednostima drugog tipa je u Ruby-ju omogućena uvođenjem klase Hash. Hash je sličan strukturi koja je poznata i kao mapa u nekim drugim jezicima, gde indeks predstavlja ključ, a pridruženi član indeksa vrednost. Ukoliko za isti ključ definišemo različite vrednosti, ključ će imati vrednost poslednje definisane vrednosti za taj ključ. 
 
 Kopiranje vrednosti je analogno kopiranju kod nizova. Redosled elemenata u hešu varira u skladu sa verzijom Ruby-ja koja se koristi. U Ruby 1.8 heš se obično skladišti u leksičkom redosledu ključeva, a u Ruby 1.9 heš se čuva u redosledu u kojem su definisani članovi \cite{HandsOn}.
 
@@ -191,13 +191,13 @@ Značajna novina je da neka funkcija može da ima neodređeni broj argumenata š
 Pri pozivu funkcije svi argumenti definisani posle osnovno-definisanih argumenata se smeštaju u niz i u ovom slučaju predstavljaju argument d.
 
 \subsection{Podržane paradigme}
-Ruby je prvenstveno predstavnik OO paradigme koja je, za razliku od Jave potpuna, što znači da i primitivni tipovi predstavljaju objekat. Takođe, gotovo sve operacije predstavljaju metode klasa. Kao primer navodimo operaciju množenja “*” u izrazu 5*2=10, koja je metoda objekta 5. Integer 2 je parametar metode, a 10 povratna vrednost.
+Ruby je prvenstveno predstavnik OO paradigme koja je, za razliku od Jave, potpuna, što znači da i primitivni tipovi predstavljaju objekat. Takođe, gotovo sve operacije predstavljaju metode klasa. Kao primer navodimo operaciju množenja “*” u izrazu 5*2=10, koja je metoda objekta 5. Integer 2 je parametar metode, a 10 povratna vrednost.
 
-Iako je OO paradigma glavna odlika Ruby-ja, on podržava i pisanje programa u funkcionalnom i imperativnom stilu. Funkcionalna paradigma se odlikuje prvenstveno mogućnošću pisanja lambda izraza. Sintaksa jednog lamda izraza je sledeca:
+Iako je OO paradigma glavna odlika Ruby-ja, on podržava i pisanje programa u funkcionalnom i imperativnom stilu. Funkcionalna paradigma se odlikuje prvenstveno mogućnošću pisanja lambda izraza. Sintaksa jednog lamda izraza je sledeća:
 \begin{lstlisting}[language=Ruby]
 	add = lambda { |x,y| x + y }
 \end{lstlisting}\vspace*{-15pt}
-Dati metod mozemo pozvati sa \emph{add.call(1,2)}.
+Dati metod možemo pozvati sa \emph{add.call(1,2)}.
 
 Referentna transparentnost gde neku funkciju možemo zameniti sa rezultatom i kompozicija funkcija gde se dve ili više funkcija kombinuje u jednu su još neki od funkcionalnih koncepata koji se mogu koristiti.
 
@@ -245,7 +245,7 @@ Svaki kod koji je okružen zagradama “\{\}” ili obuhvaćen ključnim rečima
 	# {|x, y| x + y}
 \end{lstlisting}\vspace*{-15pt}
 
-Blokovi su sintaksne strukture u Ruby-ju i ne smatraju se objektima. Ipak, moguće je kreirati objekat koji predstavlja blok. U zavisnosti kako je taj objekat kreiran razlikujemo \emph{procs} i \emph{lambde}. Klasa Proc omogućava da pozovemo metodu nad njenim instancama (\emph{procs}) i da ih dodelimo promenljivama. Takođe, procs mogu biti i povratne vrendosti metoda. Lambde su Proc objekti koji se više ponašaju kao metode, dok se sami Proc objekti više ponašaju kao blokovi. Razlika se ogleda u tome što lambde proveravaju broj argumenata i drugačiji način tretiraju ključnu reč \emph{return} \cite{rubyProgLang}.
+Blokovi su sintaksne strukture u Ruby-ju i ne smatraju se objektima. Ipak, moguće je kreirati objekat koji predstavlja blok. U zavisnosti kako je taj objekat kreiran razlikujemo \emph{procs} i \emph{lambde}. Klasa Proc omogućava da pozovemo metodu nad njenim instancama (\emph{procs}) i da ih dodelimo promenljivama. Takođe, procs mogu biti i povratne vrednosti metoda. Lambde su Proc objekti koji se više ponašaju kao metode, dok se sami Proc objekti više ponašaju kao blokovi. Razlika se ogleda u tome što lambde proveravaju broj argumenata i drugačiji način tretiraju ključnu reč \emph{return} \cite{rubyProgLang}.
 
 \subsection{Moduli i mixins}
 Modul predstavlja grupisane metode, konstante i klasne promenljive. Definisani su kao klase, ali je razlika u tome što oni ne mogu da budu instancirani, kao i da ne mogu biti nasleđeni. To znači da ne postoji višestruko nasleđivanje.
@@ -278,7 +278,7 @@ Primerom \ref{mixins} pokazujemo upotrebu \emph{mixin Comparable} koji može da 
 \end{lstlisting}\vspace*{-15pt}
 
 \subsection{Transparentnost i fleksibilnost}
-Ukoliko je potrebno odratiti složen posao u što manje linija koda i na jednostavnoji način pogodno je koristiti Ruby. %Mnogi će izabrati Ruby za neke poslove zato što će neki posao koji bi inače zahtevao nekoliko dana biti završen kroz nekoliko sati. 
+Ukoliko je potrebno odraditi složen posao u što manje linija koda i na jednostavniji način pogodno je koristiti Ruby. %Mnogi će izabrati Ruby za neke poslove zato što će neki posao koji bi inače zahtevao nekoliko dana biti završen kroz nekoliko sati. 
 Jedna od odlika Ruby-ja je njegova transparentnost. Pod tim se podrazumeva da za rešenja naših problema ne moramo imati mnogo dokumentacije kako bismo odradili neke jednostavne stvari. Pomoću ovog programskog jezika možemo da direktno izrazimo ideje i dizajne rešenja problema, i to na elegantan način. Sve ovo znači da ćemo kucati brže, kao i da su naši kodovi čitljiviji i lakše održivi. U primeru koda \ref{httpkod} povezujemo se na HTTP server i dohvatamo telo veb strane kao string objekat koji ispisujemo na standardni izlaz \cite{poignant}.
 \begin{lstlisting}[language=Ruby, caption = "Primer koda", label=httpkod]
 	require 'net/http'
@@ -289,14 +289,14 @@ Jedna od odlika Ruby-ja je njegova transparentnost. Pod tim se podrazumeva da za
 
 
 \section{Razvojna okruženja}
-Ruby ima mnoštvo razvojnih okruženja, posebno u domenu razvoja veb aplikacija. Najpoznatija okruženja za razvoj veb aplikacija su svakako Ruby on Rails, koji je najpopularniji u ovom domenu, zatim Sinatra, Padrino, Hanami (ex. Lotus), NYNY, Cuba, Crepe, Grape, Nancy, Hobbit, Scorched, Rack.Bez obzira na veliki broj okruženja, odlučili smo da posebnu pažnju posvetimo Ruby on Rails koji je i dalje najdominantniji među pomenutim.
+Ruby ima mnoštvo razvojnih okruženja, posebno u domenu razvoja veb aplikacija. Najpoznatija okruženja za razvoj veb aplikacija su svakako Ruby on Rails, koji je najpopularniji u ovom domenu, zatim Sinatra, Padrino, Hanami (ex. Lotus), NYNY, Cuba, Crepe, Grape, Nancy, Hobbit, Scorched, Rack. Bez obzira na veliki broj okruženja, odlučili smo da posebnu pažnju posvetimo Ruby on Rails koji je i dalje najdominantniji među pomenutim.
 \subsection{Ruby on Rails}
-Ruby on Rails je jedno od najpopularnijih razvojnih okruženja za razvoj veb aplikacija. Zapravo, njegovim pojavljivanje, Ruby je postao svetski poznat jezik. Napravljeno je da učini programiranje veb aplikacija lakšim praveći pretpostavke o tome šta je svakom programeru potrebno da bi počeo. Omogućava da se napiše manje koda, a da se pritom ostvari više nego u mnogim drugim jezicima i okruženjima. Iskusni Rails programeri kažu da čini razvoj veb aplikacija zabavnijim \cite{rubyOnRails}.
+Ruby on Rails je jedno od najpopularnijih razvojnih okruženja za razvoj veb aplikacija. Zapravo, njegovim pojavljivanjem, Ruby je postao svetski poznat jezik. Napravljeno je da učini programiranje veb aplikacija lakšim praveći pretpostavke o tome šta je svakom programeru potrebno da bi počeo. Omogućava da se napiše manje koda, a da se pritom ostvari više nego u mnogim drugim jezicima i okruženjima. Iskusni Rails programeri kažu da čini razvoj veb aplikacija zabavnijim \cite{rubyOnRails}.
 
-Rails pravi pretpostavke o tome da postoji “najbolji” način da se nešto uradi i dizajniran je tako da podstiče programera da koristi taj način, a u nekim slučajevima i da ga obeshrabri da koristi alternativne načine.  Rails ima dva osnovna principa - "Dogovor umesto konfiguracije" (eng. Convention over configuration) i "Ne ponavljaj se" (eng. Don't repeat yourself). To znači da okruženje obezbeđuje šablone i očekuje se da će ih programer koristiti bez izmena, kao i da će otklanjati kod koji se ponavlja. Ovaj pristup razvoju veb aplikacija funkcioniše veoma dobro kod većine ljudi, međutim, potrebno je napraviti kompromis. Da bi se obezbedio sistem koji funkcioniše bez konfiguracija i koda koji se ponavlja, Rails u velikoj meri koristi dinamičke karakteristike Ruby-ja. Klase se konstruišu pri izvršavanju a metode se dinamički generišu. Programeri koji nauče da pravilno koriste ovo okruženje verovatno će otkriti ogroman porast produktivnosti. Međutim, ukoliko su uporni u nameri da donesu stare navike iz drugih jezika u okruženje Rails i pokušavaju da koriste šablone koje su naučili negde drugde, mogu imati lošije iskustvo \cite{rubyOnRails}\cite{specDynTech}.
+Rails pravi pretpostavke o tome da postoji “najbolji” način da se nešto uradi i dizajniran je tako da podstiče programera da koristi taj način, a u nekim slučajevima i da ga obeshrabri da koristi alternativne načine.  Rails ima dva osnovna principa - “Dogovor umesto konfiguracije” (\emph{eng. Convention over configuration}) i "Ne ponavljaj se" (\emph{eng. Don't repeat yourself}). To znači da okruženje obezbeđuje šablone i očekuje se da će ih programer koristiti bez izmena, kao i da će otklanjati kod koji se ponavlja. Ovaj pristup razvoju veb aplikacija funkcioniše veoma dobro kod većine ljudi, međutim, potrebno je napraviti kompromis. Da bi se obezbedio sistem koji funkcioniše bez konfiguracija i koda koji se ponavlja, Rails u velikoj meri koristi dinamičke karakteristike Ruby-ja. Klase se konstruišu pri izvršavanju a metode se dinamički generišu. Programeri koji nauče da pravilno koriste ovo okruženje verovatno će otkriti ogroman porast produktivnosti. Međutim, ukoliko su uporni u nameri da donesu stare navike iz drugih jezika u okruženje Rails i pokušavaju da koriste šablone koje su naučili negde drugde, mogu imati lošije iskustvo \cite{rubyOnRails}\cite{specDynTech}.
 
 
-Mnoge poznate aplikacije napisane u Ruby-ju su napravljene upravo pomoću Ruby on Rails okruženja koje je prvi put objavljeno 25.10.2004. Poslednja verzija 5.2.2.1 objavljena je u martu 2019. godine. Rails je softver otvorenog koda, čijem razvoju je doprinelo više od 4500 ljudi, a preuziman je skoro 166 miliona puta \cite{rubyToolbox}.
+Mnoge poznate aplikacije napisane u Ruby-ju su napravljene upravo pomoću Ruby on Rails okruženja koje je prvi put objavljeno 25.10.2004. Poslednja verzija 5.2.2.1 objavljena je u martu 2019. godine. Rails je softver otvorenog koda, čijem razvoju je doprinelo više od 4500 ljudi, a u trenutku pisanja ovog teksta preuzimanje je skoro 168 miliona puta \cite{rubyToolbox}.
 
 \begin{figure}[ht!]
 \begin{center}
@@ -311,7 +311,7 @@ Mnoge poznate aplikacije napisane u Ruby-ju su napravljene upravo pomoću Ruby o
 Instalacija i izvršavanje standardne implementacije programskog jezika Ruby je podržana na različitim operativnim sistemima. Ne zahteva mnogo napora tako da nije izazov za korisnike i brzo i efikasno se odrađuje.  U narednom delu prikazujemo slučajeve kod operativnih sistema Linux i Windows.
 
 \subsection{Instalacija}
-Najjednostavniji način za instalaciju Ruby programskog jezika na Linux operativnom sistemu(distribucija Debian i Ubuntu) je korišćenjem \emph{apt} menadžer paketa.
+Najjednostavniji način za instalaciju Ruby programskog jezika na Linux operativnom sistemu (distribucija Debian i Ubuntu) je korišćenjem \emph{apt} menadžer paketa.
 Prvo, ažuriramo listu dostupnih paketa:
 \begin{lstlisting}[language=bash]
   $ sudo apt update
@@ -330,11 +330,11 @@ Treba da se dobije izlaz nalik ovom:
   ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
 \end{lstlisting}\vspace*{-15pt} 
 
-Naredbe za instalaciju razlikuju se na različitim distribucijama Linuxa. U primeru su navedene one koje se odnose na distribuciju Debian i Ubuntu. Za korišćenje Fedora distibucije umesto \emph{apt} možemo koristiti \emph{yum} menadžer paketa.
+Naredbe za instalaciju razlikuju se na različitim distribucijama Linuxa. U primeru su navedene one koje se odnose na distribuciju Debian i Ubuntu. Za korišćenje Fedora distribucije umesto \emph{apt} možemo koristiti \emph{yum} menadžer paketa.
 
-Program RubyInstaller je jedan od načina instalacije Ruby-ja na Windows operativnim sistemima koji se može naći na adresi \url{http://rubyinstaller.org/downloads/}. Prilikom njegovog pokretanja moramo prihvatiti licencu i izabrati putanju instalacije.Paketi za instalaciju za ostale operativne sisteme se mogu naći na adresi \url{http://www.ruby-lang.org/en/downloads} \cite{rubyLang}.
+Program RubyInstaller je jedan od načina instalacije Ruby-ja na Windows operativnim sistemima koji se može naći na adresi \url{http://rubyinstaller.org/downloads/}. Prilikom njegovog pokretanja moramo prihvatiti licencu i izabrati putanju instalacije. Paketi za instalaciju za ostale operativne sisteme se mogu naći na adresi \url{http://www.ruby-lang.org/en/downloads} \cite{rubyLang}.
 \subsection{Pokretanje programa}
-Kod napisan u Ruby se može pokrenuti na tri različita načina. Prvi je kada kreiramo datoteku sa programskim kodom i pokrenemo je naredbom:
+Kod napisan u Ruby-ju se može pokrenuti na tri različita načina. Prvi je kada kreiramo datoteku sa programskim kodom i pokrenemo je naredbom:
 \begin{lstlisting}[language=bash]
   $ ruby primer.rb
 \end{lstlisting}\vspace*{-15pt}
