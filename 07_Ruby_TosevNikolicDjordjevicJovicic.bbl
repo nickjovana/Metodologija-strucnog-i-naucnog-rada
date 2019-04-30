@@ -4,17 +4,28 @@
 H.~Shin-Ichiro.
 \newblock {Ruby talk}.
 \newblock on-line at:
-  \url{http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml}.
+  \url{http://blade.nagaokaut.ac.jp/ruby/ruby-talk/index.shtml}, numbers of
+  mails used: 382, 394, 88819, 179642.
 
 \bibitem{rubyProgLang}
 D.~Flanagan and M.~Yukihiro.
 \newblock {\em {The Ruby Programing Language}}.
 \newblock O'Reilly, 2008.
 
+\bibitem{rubyLang}
+The~Ruby community.
+\newblock {Ruby Language}.
+\newblock on-line at: \url{https://www.ruby-lang.org/en/}.
+
 \bibitem{ruby-doc}
 J.~Britt.
 \newblock {Ruby Documentation}.
-\newblock on-line at: \url{http://www.ruby-doc.com/docs/ProgrammingRuby/}.
+\newblock on-line at: \url{http://www.ruby-doc.com/}.
+
+\bibitem{tiobe}
+TIOBE~Software BV.
+\newblock {TIOBE - The Software Quality Company}.
+\newblock on-line at: \url{https://www.tiobe.com/}.
 
 \bibitem{HandsOn}
 H.~Collingbourne.
@@ -46,10 +57,5 @@ C.~Seaton.
 C.~Olszowka.
 \newblock {The Ruby Toolbox}, 2009.
 \newblock on-line at: \url{https://www.ruby-toolbox.com/projects/rails}.
-
-\bibitem{rubyLang}
-The~Ruby community.
-\newblock {Ruby Language}.
-\newblock on-line at: \url{https://www.ruby-lang.org/en/}.
 
 \end{thebibliography}

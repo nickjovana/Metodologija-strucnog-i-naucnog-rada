@@ -1,4 +1,4 @@
-\babel@toc {serbian}{}
+\select@language {serbian}
 \global \c@tocdepth 1\relax 
 \contentsline {section}{\numberline {1}Uvod}{2}{section.1}
 \contentsline {section}{\numberline {2}Istorijski razvoj, uticaj i namena}{2}{section.2}
@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {3.6}Podr\IeC {\v z}ane paradigme}{6}{subsection.3.6}
 \contentsline {section}{\numberline {4}Specifi\IeC {\v c}nosti programskog jezika}{7}{section.4}
 \contentsline {subsection}{\numberline {4.1}Oznake promenljivih i simboli}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Blokovi, klasa Proc i lambde}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Blokovi, klasa Proc i lambde}{8}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Moduli i mixins}{8}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Transparentnost i fleksibilnost}{9}{subsection.4.4}
 \contentsline {section}{\numberline {5}Razvojna okru\IeC {\v z}enja}{9}{section.5}
@@ -22,6 +22,6 @@
 \contentsline {section}{\numberline {6}Instalacija i uputstvo za pokretanje programa na Linux i Windows operativnim sistemima}{10}{section.6}
 \contentsline {subsection}{\numberline {6.1}Instalacija}{10}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Pokretanje programa}{11}{subsection.6.2}
-\contentsline {section}{\numberline {7}Primer jednostavnog k\^{o}da}{11}{section.7}
+\contentsline {section}{\numberline {7}Primer jednostavnog koda}{11}{section.7}
 \contentsline {section}{\numberline {8}Zaklju\IeC {\v c}ak}{12}{section.8}
 \contentsline {section}{Literatura}{12}{section.8}
